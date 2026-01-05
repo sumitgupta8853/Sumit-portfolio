@@ -16,6 +16,8 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 Live demo link can be added here.
 
+https://sumit-portfolio-kappa.vercel.app/
+
 ---
 
 ## Features
