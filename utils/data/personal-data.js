@@ -7,11 +7,11 @@ export const personalData = {
   phone: '+918853887366',
   address: 'SDA, South Delhi',
   github: 'https://github.com/sumitgupta8853',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  facebook: '',
   linkedIn: 'https://www.linkedin.com/in/sumit-kumar-gupta-b87a84212/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  twitter: '',
+  stackOverflow: 'https://stackoverflow.com/users/32145765/sumit-gupta',
+  leetcode: "",
+  devUsername: "",
   resume: "https://drive.google.com/file/d/1TDO90D-I2PusRhy0J7A2_I7XJjJwSTpv/view?usp=drive_link"
 }
