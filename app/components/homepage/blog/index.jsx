@@ -1,51 +1,40 @@
-// @flow strict
-import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa';
-import BlogCard from './blog-card';
+import BlogCard from "./blog-card";
 
-function Blog({ blogs }) {
+// 9 Instagram links (tumhare diye hue)
+const links = [
+  "https://www.instagram.com/reel/DLNnB2OS3-M/?igsh=MXdtenNuMXZ4bzR1cA==",
+  "https://www.instagram.com/reel/DMGR9FdSCkx/?igsh=MWVxaTUyOWg3OTB1aA==",
+  "https://www.instagram.com/reel/DBwU5shsRhh/?igsh=Zms1OTBobzZ2eGxt",
+  "https://www.instagram.com/reel/DDSagdUvBYE/?igsh=MXg5NHoxbjR2OHpnMQ==",
+  "https://www.instagram.com/reel/DIb9wCqB9wo/?igsh=MXd5MWw3cnJjc2JuNw==",
+  "https://www.instagram.com/reel/DLLKobHy7Uo/?igsh=MXNwZXdtbnl3MGlqaQ==",
+  "https://www.instagram.com/reel/DB5uxZ_hB0q/?igsh=MThiMGJjczdscjQ3dg==",
+  "https://www.instagram.com/reel/DOrRXFpEvT6/?igsh=MXRuOHZ1dWppbXIzMA==",
+  "https://www.instagram.com/reel/DDIFsVNByXc/?igsh=bWRicm04bHIzdmtw",
+];
 
+function Blog() {
   return (
-    <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
-
-      <div className="flex justify-center -translate-y-[1px]">
-        <div className="w-3/4">
-          <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
-        </div>
+    <div className="py-8">
+      
+      {/* SECTION HEADING */}
+      <div className="flex justify-center my-6">
+        <span className="bg-[#1a1443] text-white px-6 py-2 rounded-md text-xl">
+          Interest
+        </span>
       </div>
 
-      <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Blogs
-          </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-        </div>
+      {/* IMAGES GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {[...Array(9)].map((_, i) => (
+          <BlogCard key={i} image={`sg${i + 1}.jpg`} link={links[i]} />
+        ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
-        {
-          blogs.slice(0, 6).map((blog, i) => (
-            blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
-          ))
-        }
-      </div>
-
-      <div className="flex justify-center  mt-5 lg:mt-12">
-        <Link
-          className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
-          role="button"
-          href="/blog"
-        >
-          <span>View More</span>
-          <FaArrowRight size={16} />
-        </Link>
-      </div>
     </div>
   );
-};
+}
 
 export default Blog;
+
+

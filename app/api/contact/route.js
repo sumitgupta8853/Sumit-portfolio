@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.EMAIL_ADDRESS,
     pass: process.env.GMAIL_PASSKEY, 
-  },
+  }, 
 });
 
 // Helper function to send a message via Telegram

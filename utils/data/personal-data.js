@@ -1,17 +1,17 @@
 export const personalData = {
-  name: "ABU SAID",
-  profile: '/profile.png',
+  name: "Sumit Kumar Gupta",
+  profile: '/profile1.png',
   designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
+  description: "I am SUMIT KUMAR GUPTA, a professional and enthusiastic programmer. I am a quick learner with a self-learning attitude, and I love to explore new technologies. My core skill is JavaScript, and I am passionate about problem-solving and making the web more open to the world. As a versatile programmer, I have hands-on experience in backend development using Node.js and Express.js. I have developed secure and scalable REST APIs, implemented CRUD operations, and worked with MongoDB for database design and data handling. I am also skilled in user authentication, encryption/decryption of sensitive data, and integrating third-party services. In my freelance work, I have built REST APIs, implemented CRUD operations, and worked on improving existing backend features. I am proficient in technologies like Node.js, MongoDB, JavaScript, and Restful Web API Development. I am available for any job opportunity that aligns with my skills and interests. I am committed to continuous learning and delivering high-quality work to contribute to innovative projects.",
+  email: 'sg4104560@gmail.com',
+  phone: '+918853887366',
+  address: 'SDA, South Delhi',
+  github: 'https://github.com/sumitgupta8853',
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
+  linkedIn: 'https://www.linkedin.com/in/sumit-kumar-gupta-b87a84212/',
   twitter: 'https://twitter.com/said7388',
   stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1TDO90D-I2PusRhy0J7A2_I7XJjJwSTpv/view?usp=drive_link"
 }

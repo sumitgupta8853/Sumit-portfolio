@@ -1,40 +1,80 @@
 export const projectsData = [
+   {
+  id: 1,
+  name: 'Vyapaar – Business Management System',
+  description:
+    'Developed secure and scalable backend APIs using Node.js and Express.js. Built RESTful CRUD APIs for inventory, services, parties, and taxation modules. Implemented request validation using Zod and schema-level validations with Mongoose. Added OTP-based authentication with JWT and encryption/decryption for sensitive request and response data. Developed Excel upload functionality using ExcelJS with duplicate data checks. Followed MVC architecture and tested/documented APIs using Postman.',
+  tools: [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT',
+    'Zod',
+    'ExcelJS',
+    'Postman'
+  ],
+  role: 'Backend Developer',
+  code: '',
+  demo: '',
+},
+
     {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
+  id: 2,
+  name: 'User Management System (Learning Project)',
+  description:
+    'Built RESTful APIs using Node.js and Express.js. Implemented user signup and login with JWT authentication. Created CRUD APIs for managing users. Used Zod for request validation and designed MongoDB schemas using Mongoose. Followed MVC architecture and tested APIs using Postman.',
+  tools: [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT',
+    'Zod',
+    'Postman'
+  ],
+  role: 'Backend Developer',
+  code: '',
+  demo: '',
+},
+
     {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  id: 3,
+  name: 'Authentication & Authorization System',
+  description:
+    'Developed secure authentication and authorization APIs using Node.js and Express.js. Implemented user registration, login, role-based access control, and JWT-based authentication. Added password hashing and request validation. Followed MVC architecture and tested APIs using Postman.',
+  tools: [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT',
+    'bcrypt',
+    'Postman'
+  ],
+  role: 'Backend Developer',
+  code: '',
+  demo: '',
+},
+{
+  id: 4,
+  name: 'E-commerce Backend API',
+  description:
+    'Built scalable backend APIs for an e-commerce application using Node.js and Express.js. Implemented CRUD APIs for products, categories, users, and orders. Added JWT-based authentication, request validation, and MongoDB schema validations. Followed MVC architecture and tested APIs using Postman.',
+  tools: [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT',
+    'Zod',
+    'Postman'
+  ],
+  role: 'Backend Developer',
+  code: '',
+  demo: '',
+},
+
 ];
 
 
