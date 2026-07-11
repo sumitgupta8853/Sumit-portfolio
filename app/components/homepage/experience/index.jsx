@@ -67,6 +67,13 @@ function Experience() {
                           </p>
                         </div>
                       </div>
+                      {experience.description && experience.description.length > 0 && (
+                        <ul className="list-disc pl-5 sm:pl-8 pr-3 pb-4 flex flex-col gap-2 text-xs sm:text-sm text-gray-300">
+                          {experience.description.map((point, index) => (
+                            <li key={index}>{point}</li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   </GlowCard>
                 ))
